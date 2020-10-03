@@ -1,0 +1,370 @@
+
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .navbar-light .navbar-toggler{
+        border-color: white;
+  }
+  .navbar-light .navbar-toggler .mobile-menu i{
+    color: white !important;
+    border-color: white;
+  }
+  /*banner css*/
+  .banner-form .form-body{
+    margin-left: 0;
+  }
+  .banner {
+    padding: 30px 0;
+    height: auto;
+}
+  .banner-text{
+    height: auto;
+    text-align: left;
+  }
+  .banner-form{
+    height: auto;
+  }
+
+.banner-text h3 {
+    font-size: 20px;
+    margin: 18px 0;
+}
+.banner-text .line {
+    margin: 10px auto;
+    width: 90px;
+    
+  
+}
+.banner-text p {
+    margin-bottom: 18px;
+    font-size: 21px;
+}
+
+/*feature 1*/
+.feature-1 .row{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.feature-1 .col-md-2 {
+    max-width:100%;
+}
+.feature-1 .col-md-2 ul {
+    text-align: center;
+}
+.feature-1 .col-md-2 ul li{
+  display: inline-block;
+}
+.feature-1 .col-md-4 {
+    margin-top: 140px;
+    max-width: 33.333333%;
+}
+/*social media*/
+.social-media .row {
+    align-items: center;
+}
+.social-media .col-md-7 ul li {
+    margin-left: 23px;
+   
+}
+.social-media .col-md-5 h5 {
+    font-size: 30px;
+    padding: 20px 0;
+}
+.social-media .col-md-5 p {
+    font-weight: 600;
+    font-size: 17px;
+}
+/*subsection css*/
+
+.subsection h6 {
+    font-size: 3rem;
+}
+.subsection h5 {
+    font-size: 3.25rem;
+}
+.col-md-10 {
+     max-width:100%; 
+}
+.subsection .row{
+  align-items: center;
+  flex-direction: column;
+}
+.col-md-6 {
+  text-align: center;
+    max-width: 100%;
+}
+.line1 {
+    margin: 30px auto;
+    height: 3px;
+  
+}
+.col-md-6 h4 {
+    font-size: 3.5rem;
+}
+
+.col-md-6 p{
+  font-size: 24px;
+}
+.line3 {
+    margin: 25px auto;
+    width: 90px;
+    height: 2px;
+    background: #ff9b51;
+}
+
+/*standard section*/
+.standard .row {
+    flex-direction: column-reverse;
+    align-items: center;
+}
+/*about us section*/
+.about-us p{
+  font-size: 20px;
+    font-weight: 600;
+}
+
+
+.about-us .row{
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-us .col-md-4 {
+    max-width: 100%;
+}
+ .about-us h5 {
+    font-size: 2.25rem;
+}
+.about-us p {
+    font-size: 24px;
+    font-weight: 600;
+}
+/*pricing css*/
+.card {
+    margin-left: 5px;
+}
+.pricing .card-footer ul li {
+    font-size: 20px;
+    text-align: left;
+}
+/*comment*/
+.comments p {
+    font-size: 22px;
+}
+.comments .message-box {
+    padding: 12px 9px;
+    
+}
+.style-section p{
+  font-size: 15px;
+}
+.style1 button {
+    margin: 8px 0;
+    padding: 11px 29px !important;
+}
+/*contact us*/
+.contact-us .col-md-6 {
+    margin-top: 20px;
+}
+.contact-us p {
+    font-size: 24px;
+}
+.contact-us{
+  font-size: 24px;
+}
+.button-contact {
+    font-size: 20px;
+}
+/*icon section*/
+.icon-section .col-md-12 {
+     margin-left:0; 
+}
+
+.icon-section .col-md-12 {
+    
+    margin-left: 196px;
+     margin-top: 10px; 
+    
+}
+
+}
+
+
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  /*header css*/
+.navbar-light .navbar-toggler {
+    background: #fff;
+}
+/*banner css*/
+.banner {
+  padding: 15px 0;
+    text-align: center;
+    height: auto;
+}
+.banner-text .line {
+    margin: 20px auto;
+}
+.banner-text p {
+    font-weight: 500;
+}
+.banner-text, .banner-form {
+    height: auto;
+}
+.banner .card {
+   margin:30px 30px;
+}
+.card-body {
+     padding:0 !important; 
+}
+/*social media*/
+.social-media .row {
+    align-items: center;
+    flex-direction: row;
+}
+.social-media .col-md-5 {
+  text-align: center;
+}
+.social-media .col-md-7 ul li {
+    margin-left: 14px;
+}
+/*feature section css*/
+.feature-1 ul li {
+    display: inline-block;
+    width: 107px;
+}
+.feature-1 {
+    padding: 16px 0;
+}
+.feature-1 .col-md-4 {
+  margin-top: 28px;
+}
+/*subsection css*/
+.subsection .col-md-6{
+  text-align: center;
+}
+.line3 {
+    margin: 25px auto;
+}
+/*about-us css*/
+.about-us h1 {
+    font-size: 30px;
+}
+.about-us .line4 {
+    margin: 10px 0;
+}
+/*pricing css*/
+.pricing {
+    padding: 30px 0;
+   
+}
+.pricing h1 {
+    font-size: 32px;
+    font-weight: 700;
+}
+.pricing .card {
+ margin-left:0px; 
+}
+.pricing .col-md-4{
+  margin-bottom: 25px;
+}
+/*comment section css*/
+.comments {
+    padding: 30px 0;
+}
+.comments h1 {
+    font-size: 28px;
+}
+.box-icon {
+    left: 150px;
+}
+.user-info .col-md-4 img{
+    width: 46%;
+}
+.user-info .col-md-8 {
+    text-align: center;
+}
+
+/*style section*/
+.style1 {
+     top: 0px; 
+}
+.style1 h1 {
+    font-size: 16px;
+    margin-bottom: 0rem;
+    font-weight: 700;
+    line-height: 0;
+    margin-top: 23px;
+}
+.style1 p {
+    margin-bottom: 0rem;
+    font-size: 14px;
+}
+.comments-line1 {
+    margin: 18px auto;
+}
+  .style1 button {
+    padding: 11px 20px !important;
+   margin-bottom: 5px;
+}
+
+.col-md-12 .style1 h1{
+    font-size: 18px;
+}
+/*contact us section*/
+.contact-us {
+    padding: 30px 0;
+}
+.contact-line {
+    margin: 7px auto;
+}
+.icon-section .col-md-12{
+  margin-left: 0;
+  text-align: center;
+}
+.icon-section .col-md-12 ul li {
+    margin-left: 10px;
+    font-size: 14px;
+    text-align: center;
+}
+.icon-section .col-md-12 h5 {
+    margin-left:0px;
+}
+
+.col-md-12 h5 {
+     margin-bottom:0; 
+    font-weight: 500;
+  line-height: 0;
+}
+.icon-section .col-md-12 h5 {
+    margin-left:0;
+}
+.icon-section .col-md-12 ul {
+    margin-left: 80px;
+    margin-top: 0;
+    margin-bottom:0px;
+}
+.icon-section {
+    margin-top: 10px;
+    background: black !important;
+    width: 100%;
+    height: 100px;
+}
+
+
+
+
+
+
+}
